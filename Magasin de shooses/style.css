@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.all{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img{
+    width: 8cm;
+    height: 5cm;
+}
+
+.card {
+    background-color: rgba(49, 37, 37, 0.229);
+    margin: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+
+}
+
+.para {
+    background-color: rgba(40, 40, 41, 0.459);
+    width: 8cm;
+
+
+}
+
+.btn {
+    display: inline;
+    margin: 8px;
+    padding: 10px;
+}
+.btn1 {
+    text-align: center;
+
+}
+h5 {
+    font-size: 15px;
+}
+
+/*   button    */
+
+.BT button{
+    background-color: rgba(127, 130, 87, 0.39);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.7s ease;
+}
+.BT button:hover{
+    background-color: rgb(113, 156, 140);
+    transform: scale(1.1);
+}
+
+.Bt2 button {
+    background-color: rgba(133, 127, 122, 0.39);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 1.3s ease;
+}
+.Bt2 button:hover{
+    background-color: rgb(115, 112, 99);
+    transform: scale(1.1);
+
+}
+.btn5 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 1.3s ease;
+}
+.btn55{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn55 button:hover{
+    background-color: rgb(251, 43, 43);
+    transform: scale(1.1);
+
+}
